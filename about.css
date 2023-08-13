@@ -1,0 +1,142 @@
+
+.overview_container {
+    position: relative;
+    top: 5rem;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+    margin-right: 2rem;
+  }
+  
+  .overview-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-content {
+    margin-top: 2rem;
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .overview-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  .overview-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .overview-box-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+
+  }
+  .overview-box {
+    background: #2e3267;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease;
+  }
+
+  .overview-box:hover {
+    background: #040730;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
+  }
+
+
+  /* -----------Achievements----------- */
+  .about_achievements {
+    margin-top: 5rem;
+  }
+
+  .about_achievements-container {
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 5rem;
+  }
+
+  .about_achievements-right > p {
+    margin: 1.6rem 0 2.5rem ;
+  }
+
+  .achievements_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+  }
+
+  .achievement_card {
+    background: #2e3267;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 400ms ease;
+  }
+
+  .achievement_card:hover {
+    background: #040730;
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
+  }
+
+  .achievement_icon {
+    background: #f55112;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .achievement_card:nth-child(2) .achievement_icon {
+    background: #1f2641;
+  }
+
+  .achievement_card:nth-child(3) .achievement_icon {
+    background: #00bf8e;
+  }
+
+  .achievement_card p {
+    margin-top: 1rem;
+  }
+
+
+
+
+  @media screen and (max-width: 1024px){
+    .overview_container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about_achievements-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px){
+  .overview-box-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .overview-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .achievements_cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}

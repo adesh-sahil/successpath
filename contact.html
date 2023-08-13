@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuccessPath</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><img src="Images/logo.png" alt="Success Path Logo" class="logo-img"></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa fa-xmark"></i></button>
+        </div>
+    </nav>
+
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_image">
+                    <img src="Images/contact.png" >
+                </div>
+                <h2>Contact Us</h2>
+                <p>
+                    Have questions or need assistance? We're here to help!
+                    Get in touch with our friendly team and let's embark on your journey to success together
+                </p>
+                <ul class="contact_details">
+                    <li>
+                        <i class="fa-solid fa-mobile"></i>
+                        <h5>+918918713145</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>support@successpath.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Kolkata, India</h5>
+                    </li>
+                </ul>
+                    <ul class="contact_socials">
+                        <li>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                    </ul>
+            </aside>
+
+            <form action ="https://formspree.io/f/mbjvdveg" class="contact_form" method="POST">
+                <div class="form_name">
+                    <input type="text" name = "First name" placeholder="First Name" required>
+                    <input type="text" name = "Last name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name = "Email Address" placeholder= "Your Email address" required>
+                <textarea name="Message" placeholder="Enter your message" rows="7"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+     <!-- -------------footer---------------- -->
+    
+     <footer>
+        <div class="container footer_container">
+            <div class="footer-1">
+                <a href="index.html" class="footer_logo"><h4>SuccessPath</h4></a>
+                <p>
+                    "SuccessPath: Empowering minds, unlocking potential. 
+                    Transform your future with our diverse courses 
+                    and expert guidance."
+                </p>
+            </div>
+
+            <div class="footer-2">
+                <h4>Quick Links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-4">
+                <h4>Contact</h4>
+                <div>
+                    <p> <i class="fa-solid fa-mobile"></i> +9189713145</p>
+                    <p>support@successpath.com</p>
+                </div>
+
+                <ul class="footer-socials">
+                    <li>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <small>Copyright &copy; SuccessPath</small>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
